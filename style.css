@@ -1,0 +1,50 @@
+body{
+  background: linear-gradient(#130303,#700e66,#af0b9e);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box{
+  background: linear-gradient(#0f0dab,#0b0968,#170449);
+  width: 320px;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius:20px ;
+  display: flex;
+  flex-direction: column;
+}
+*{
+  color:#df26e8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight:bold;
+  font-size: 20px; 
+ 
+}
+input{
+  width: 150px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 13px;
+  color:#152a0e;
+  padding-left: 10px;
+}
+button{
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #130303;
+  color: white;
+  font-size: 18px;
+}
+button:hover{
+  background-color: #a00870;
+  transform: scale(1.05);
+}
