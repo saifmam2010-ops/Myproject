@@ -1,45 +1,61 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css" title="" type="" />
-  <title>my profile</title>
+  <link rel="stylesheet"href="style.css"/>
+  <title>restaurant</title>
 </head>
-
 <body>
-  <header>
-    <div class="logo">saif</div>
-    <nav class="navbar">
+  <header class="header">
+    <div>🍔saif-restaurant</div>
+    <nav>
       <ul>
         <li><a href="#home">home</a></li>
+        <li><a href="#Menu">Menu</a></li>
         <li><a href="#About">About</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <section id="home">
-    <div class="main">Home</div>
-    <p>hello I'm saif 👋
-    Front-End  developer</p>
-    <h3>I'm learning Html&css</h3>
+  <section class="sec1" id="home">
+    <h1 class="main">home</h1>
+    <p>The Best food In town 🍕 <br> Fresh. Delicious. Affordable
+    </p>
+    <a href="#Menu">view Menu</a>
   </section>
-  <section id="About">
-    <div class="main">About</div>
-    <p>Hello I'M saif,Iam front-end developer </p>
+  <section class="sec2" id="Menu">
+    <h2 class="main">Our menu</h2>
+    <div class="menu-container">
+      <article class="one">
+      <img class="pr" 
+      src="/Project-tow/Imgs/pexels-media-12118980.jpeg" alt="restaurant" />
+      <h3>bizza</h3>
+      <span>25$</span>
+      </article>
+      <article class="tow">
+      <img class="pr" 
+      src="/Project-tow/Imgs/pexels-media-36007382.jpeg" alt="restaurant" />
+      <h3>burger</h3>
+      <span >30$ </span>
+      </article>
+      <article class="three">
+        <img class="pr" src="/Project-tow/Imgs/pexels-media-6068717.jpeg" alt="restaurant" />
+        <h3>pasta</h3>
+        <span>15$</span>
+      </article>
+    </div>
   </section>
-  <section id="Skills">
-    <div class="main">Skills</div>
-    <div class="lang1">Html</div>
-    <div class="lang2">css</div>
+  <section class="sec3" id="About">
+    <h2 class="main">About Us</h2>
+    <p class="p">Saif Restaurant is a place where fresh ingredients, delicious flavors, and great service come together. We offer a variety of tasty meals prepared with care and served in a comfortable atmosphere. Whether you're looking for a quick meal or a relaxing dinner with family and friends, we're here to make every visit a delicious experience.</p>
   </section>
-  <footer class="foot">
-    <div class="tt">2026</div>
-    <div class="ss">saif</div>
-    <div class="plog">©</div>
+  <section class="sec4" id="Contact">
+    <h2 class="main">Contact Us</h2>
+    <p class="p"> cairo | 0100000</p>
+  </section>
+  <footer class="foo">
+    <p>© 2026 saif restaurant</p>
   </footer>
 </body>
-
 </html>
